@@ -4,6 +4,7 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 import string
+import sklearn
 char = string.punctuation
 ps = PorterStemmer()
 def all_preprocess(text):
